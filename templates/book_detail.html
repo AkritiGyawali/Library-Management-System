@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books Availability Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #eaeaea;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Books Availability Report</h2>
+
+    <table>
+        <tr>
+            <th>Book Name</th>
+            <th>Book Id</th>
+            
+            <th>available_books</th>
+                 <th>Issued</th>
+            <th>Total no.of book</th>
+        </tr>
+        {% for row in records %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>  <!-- total_books -->
+            <td>{{ row[3] }}</td>  <!-- total_issued -->
+            <td>{{ row[4] }}</td>
+            
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>

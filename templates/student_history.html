@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Issuance History</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Issuance History for Student ID: {{student_id}}</h2>
+
+    <table>
+        <tr>
+            <th>Student ID</th>
+            <th>Book ID</th>
+            <th>Issued Date</th>
+            <th>Due Date</th>
+            <th>Return Date</th>
+        </tr>
+        {% for row in records %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] if row[4] else 'Not Returned' }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
