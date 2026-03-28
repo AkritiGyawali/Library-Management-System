@@ -83,31 +83,31 @@ The system follows a 3-tier architecture:
 ## 4.2 Use Case Diagram
 
 
-![alt text](<Screenshot from 2026-03-14 17-28-20.png>)
+![alt text](<img/Screenshot from 2026-03-14 17-28-20.png>)
 
 
 ## 4.3 Data Flow Diagram
 ### 4.3.1 DFD 0
 
 
-![alt text](<Screenshot from 2026-03-16 15-40-31.png>)
+![alt text](<img/Screenshot from 2026-03-16 15-40-31.png>)
 
 
 ### 4.3.2 DFD 1
 
-![alt text](<Screenshot from 2026-03-16 15-50-03.png>)
+![alt text](<img/Screenshot from 2026-03-16 15-50-03.png>)
 
 
 ### 4.3.3  DFD 2
 
-![alt text](<Screenshot from 2026-03-16 15-53-05.png>)
+![alt text](<img/Screenshot from 2026-03-16 15-53-05.png>)
 
 ## 4.4 Class Diagram
 
 
 
 
-![alt text](<Screenshot from 2026-03-14 18-22-53.png>)
+![alt text](<img/Screenshot from 2026-03-14 18-22-53.png>)
 
 
 
@@ -121,7 +121,7 @@ The system follows a 3-tier architecture:
 
 ## 4.5 Sequence Diagram
 
-![alt text](<Screenshot from 2026-03-16 16-45-26.png>)
+![alt text](<img/Screenshot from 2026-03-16 16-45-26.png>)
 
 
 
@@ -129,7 +129,7 @@ The system follows a 3-tier architecture:
 
 
 
-![alt text](<Screenshot from 2026-03-16 17-15-02.png>)
+![alt text](<img/Screenshot from 2026-03-16 17-15-02.png>)
 
 
 
