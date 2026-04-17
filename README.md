@@ -1,4 +1,4 @@
-# Digital Library Management System
+# System Design and Analysis
 
 ## Introduction
 The digital library management system is a web based application system designed to manage library procedure(books,students,issue book and soon).It serves as a digital alternative to the traditional pen and paper method of recording available book , issued bookP , overdue book, in the library , aiming to improve efficiency,accuracy . Moreover, it also reduce human error and ensure secure data handling.
